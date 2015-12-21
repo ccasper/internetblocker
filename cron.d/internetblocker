@@ -1,0 +1,8 @@
+# /etc/cron.d/internetblocker: crontab entries for the internetblocker
+# For Ubuntu, install this to /etc/cron.d/internetblocker
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# Run every 5 minutes
+*/5 * * * * root /usr/local/bin/internetblocker.sh "cory"
+#*/5 * * * * root /usr/local/bin/internetblocker.sh "<username>"
