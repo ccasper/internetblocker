@@ -8,6 +8,8 @@ Download and extract internetblocker-master.zip<br>
 
 Edit cron.d/internetblocker to include the username to block. To block more than one user, copy the cron line and replace the username for each user.<br>
 
+Edit bin/internetblocker.sh to change the start and end hours for blocking to be active.<br>
+
 Copy the cron script into cron<br>
 
 <i>sudo cp cron.d/internetblocker /etc/cron.d/internetblocker<br>
